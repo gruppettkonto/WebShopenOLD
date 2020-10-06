@@ -5697,19 +5697,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\larst\\.nuget\\packages\\": {}
+    "C:\\Users\\PeteNils\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj",
+      "projectUniqueName": "C:\\Users\\PeteNils\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj",
       "projectName": "WebShopen",
-      "projectPath": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj",
-      "packagesPath": "C:\\Users\\larst\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\obj\\",
+      "projectPath": "C:\\Users\\PeteNils\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj",
+      "packagesPath": "C:\\Users\\PeteNils\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PeteNils\\Source\\Repos\\WebShopen\\WebShopen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\larst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PeteNils\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
