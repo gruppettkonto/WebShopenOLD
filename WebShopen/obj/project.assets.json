@@ -5702,11 +5702,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Familjen Linhage\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj",
+      "projectUniqueName": "C:\\Users\\Familjen Linhage\\source\\repos\\WebShopen\\WebShopen\\WebShopen.csproj",
       "projectName": "WebShopen",
-      "projectPath": "C:\\Users\\Familjen Linhage\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj",
+      "projectPath": "C:\\Users\\Familjen Linhage\\source\\repos\\WebShopen\\WebShopen\\WebShopen.csproj",
       "packagesPath": "C:\\Users\\Familjen Linhage\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Familjen Linhage\\Source\\Repos\\WebShopen\\WebShopen\\obj\\",
+      "outputPath": "C:\\Users\\Familjen Linhage\\source\\repos\\WebShopen\\WebShopen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Familjen Linhage\\AppData\\Roaming\\NuGet\\NuGet.Config",
