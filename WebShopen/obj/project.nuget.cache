@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pN1MBv5UDxjmFz4j2mLWrTZHliIBEKiEnqp6X+EXetm6Sd5/gkHqnPpdTHLC90PQH3KUxl4Kfg1DPd5VwfGXCA==",
+  "dgSpecHash": "U/u5T38uD9ELJYbxldc0xt61TMmNshtOC013bwEo+V1clpeY3b5gAMBqSD7Uhyth1JKqbFzMQBV3PvUPbz0H0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj",
+  "projectFilePath": "C:\\Users\\larst\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\larst\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\larst\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",

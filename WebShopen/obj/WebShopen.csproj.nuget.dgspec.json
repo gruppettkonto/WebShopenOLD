@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj": {}
+    "C:\\Users\\larst\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj": {
+    "C:\\Users\\larst\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj",
+        "projectUniqueName": "C:\\Users\\larst\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj",
         "projectName": "WebShopen",
-        "projectPath": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj",
+        "projectPath": "C:\\Users\\larst\\Source\\Repos\\WebShopen\\WebShopen\\WebShopen.csproj",
         "packagesPath": "C:\\Users\\larst\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\obj\\",
+        "outputPath": "C:\\Users\\larst\\Source\\Repos\\WebShopen\\WebShopen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\larst\\AppData\\Roaming\\NuGet\\NuGet.Config",
