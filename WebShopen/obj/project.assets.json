@@ -2,24 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Microsoft.AspNetCore.Authentication.AzureAD.UI/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.8",
-          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "3.1.8"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll": {},
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll": {},
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
       "Microsoft.AspNetCore.Authentication.Google/3.1.8": {
         "type": "package",
         "compile": {
@@ -27,36 +9,6 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -816,22 +768,6 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Authentication.AzureAD.UI/3.1.8": {
-      "sha512": "6PMS/v0SM7nqtYRMSTeUMn6mMhuGZFewJLd4ycKQaAoJBHp6EpYj7izMYByEOoLn0Pn3dHC8vZqEns7Qk+ROag==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authentication.azuread.ui/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.xml",
-        "microsoft.aspnetcore.authentication.azuread.ui.3.1.8.nupkg.sha512",
-        "microsoft.aspnetcore.authentication.azuread.ui.nuspec"
-      ]
-    },
     "Microsoft.AspNetCore.Authentication.Google/3.1.8": {
       "sha512": "gOfurVsnr/WteLGBkS7YE9caOBEAMQ0LE6IPMUokYqv7YYrHrq/x174eBH5NscN1tfzKu3bDBs1w7tR5ilZfsw==",
       "type": "package",
@@ -845,36 +781,6 @@
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.xml",
         "microsoft.aspnetcore.authentication.google.3.1.8.nupkg.sha512",
         "microsoft.aspnetcore.authentication.google.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
-      "sha512": "sAXFFgsSEYd6PTFCzBKYBlXnb+ncclrQPMyMzARELxBv94Onqtr/JTWKih+NUr/3xR5BAs1xE6boao0Us6xcPA==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
-        "microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
-        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.8": {
-      "sha512": "nszoSasCukCRXutZOUUIXHbWl/u8X32do9y89FPv2XSahzOeXUX2BI9ehDh5bbbGtKM06LqfbGHXVl6BKqaxKA==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.xml",
-        "microsoft.aspnetcore.authentication.openidconnect.3.1.8.nupkg.sha512",
-        "microsoft.aspnetcore.authentication.openidconnect.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.8": {
@@ -2371,7 +2277,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.AspNetCore.Authentication.AzureAD.UI >= 3.1.8",
       "Microsoft.AspNetCore.Authentication.Google >= 3.1.8",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.8",
@@ -2419,10 +2324,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
-            "target": "Package",
-            "version": "[3.1.8, )"
-          },
           "Microsoft.AspNetCore.Authentication.Google": {
             "target": "Package",
             "version": "[3.1.8, )"
