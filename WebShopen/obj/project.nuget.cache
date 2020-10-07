@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QbsvfS7i17dAJBuwxZhPb0xIM7CeaA7Oy7QuGsoSpE9ayqbPjjLNfn745QYSClxF1JEIUWgjgg2M9aUXEDo8sA==",
+  "dgSpecHash": "sBRfd5I/gtMy/jYrSyafMPvrdcSYMUki8yME2VX40eSTU500YENVn4w5F70T1I4Iym5yJPKd+4U4kRiWCSNjFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Familjen Linhage\\source\\repos\\Webshopen\\WebShopen\\WebShopen.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.8\\microsoft.aspnetcore.authentication.google.3.1.8.nupkg.sha512",
     "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
     "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.8\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.8.nupkg.sha512",

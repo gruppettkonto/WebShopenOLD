@@ -84,9 +84,6 @@ C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Debug\netcoreapp3
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.csproj.CoreCompileInputs.cache
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.Views.pdb
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.csproj.CopyComplete
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.dll
