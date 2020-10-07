@@ -13,6 +13,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.AzureAD.UI;
+using Microsoft.AspNetCore.Authentication;
 
 namespace WebShopen
 {
@@ -34,19 +36,23 @@ namespace WebShopen
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddAuthentication(options =>
-            {
-                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-            })
-                 .AddCookie(options =>
-                 {
-                     options.LoginPath = "/account/google-login"; // Must be lowercase
-                 })
-                .AddGoogle(options =>
-                {
-                    options.ClientId = "479215895037-p0ujudllhjlfsc9evm6i3nogbhmpitvc.apps.googleusercontent.com";
-                    options.ClientSecret = "gXab1sC073mnmTRZ1r44zLdr";
-                });
+
+            services.AddAuthentication(AzureADDefaults.AuthenticationScheme)
+                .AddAzureAD(options => Configuration.Bind("AzureAd", options));
+
+            //services.AddAuthentication(options =>
+            //{
+            //    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            //})
+            //     .AddCookie(options =>
+            //     {
+            //         options.LoginPath = "/account/google-login"; // Must be lowercase
+            //     })
+            //    .AddGoogle(options =>
+            //    {
+            //        options.ClientId = "479215895037-p0ujudllhjlfsc9evm6i3nogbhmpitvc.apps.googleusercontent.com";
+            //        options.ClientSecret = "gXab1sC073mnmTRZ1r44zLdr";
+            //    });
 
 
             services.AddControllersWithViews();

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DvKNDaYmAHY3ICDfd67U3pGcsbiaVw4ZzRl0EzCMWIxGTT3mQtbbl/8DHPhFKIPBBbud0t0LdpQW+eDj9f0Kwg==",
+  "dgSpecHash": "3ussMJiVjgXgvG3Ador/oLOTFdUmhoImPOq8/uwRkJCQXI6bCjNZI4Y9PMTZDZb6rOAg90TMqTusIi+pX6OLjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Familjen Linhage\\source\\repos\\Webshopen\\WebShopen\\WebShopen.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.authentication.azuread.ui\\3.1.8\\microsoft.aspnetcore.authentication.azuread.ui.3.1.8.nupkg.sha512",
     "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.8\\microsoft.aspnetcore.authentication.google.3.1.8.nupkg.sha512",
+    "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
+    "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.8\\microsoft.aspnetcore.authentication.openidconnect.3.1.8.nupkg.sha512",
     "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
     "C:\\Users\\Familjen Linhage\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.8\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.8.nupkg.sha512",

@@ -90,6 +90,3 @@ C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.pdb
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.genruntimeconfig.cache
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.csproj.CoreCompileInputs.cache
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Debug\netcoreapp3.1\WebShopen.MvcApplicationPartsAssemblyInfo.cache
