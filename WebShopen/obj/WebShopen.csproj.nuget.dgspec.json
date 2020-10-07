@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj": {}
+    "C:\\Users\\Familjen Linhage\\source\\repos\\Webshopen\\WebShopen\\WebShopen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj": {
+    "C:\\Users\\Familjen Linhage\\source\\repos\\Webshopen\\WebShopen\\WebShopen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj",
+        "projectUniqueName": "C:\\Users\\Familjen Linhage\\source\\repos\\Webshopen\\WebShopen\\WebShopen.csproj",
         "projectName": "WebShopen",
-        "projectPath": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\WebShopen.csproj",
-        "packagesPath": "C:\\Users\\larst\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\larst\\OneDrive\\GitHub\\WebShopen\\WebShopen\\obj\\",
+        "projectPath": "C:\\Users\\Familjen Linhage\\source\\repos\\Webshopen\\WebShopen\\WebShopen.csproj",
+        "packagesPath": "C:\\Users\\Familjen Linhage\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Familjen Linhage\\source\\repos\\Webshopen\\WebShopen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\larst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Familjen Linhage\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,6 +69,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -77,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
