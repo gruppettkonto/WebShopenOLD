@@ -24,7 +24,6 @@
     ".NETCoreApp,Version=v3.1": {
       "WebShopen/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.AzureAD.UI": "3.1.8",
           "Microsoft.AspNetCore.Authentication.Google": "3.1.8",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.8",
@@ -295,26 +294,6 @@
           "WebShopen.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authentication.AzureAD.UI/3.1.8": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.8",
-          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "3.1.8"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42106"
-          },
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42106"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll": {},
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.AzureAD.UI.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Authentication.Google/3.1.8": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {
@@ -324,34 +303,6 @@
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42106"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.8": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42106"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.8": {
@@ -2582,33 +2533,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authentication.AzureAD.UI/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6PMS/v0SM7nqtYRMSTeUMn6mMhuGZFewJLd4ycKQaAoJBHp6EpYj7izMYByEOoLn0Pn3dHC8vZqEns7Qk+ROag==",
-      "path": "microsoft.aspnetcore.authentication.azuread.ui/3.1.8",
-      "hashPath": "microsoft.aspnetcore.authentication.azuread.ui.3.1.8.nupkg.sha512"
-    },
     "Microsoft.AspNetCore.Authentication.Google/3.1.8": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-gOfurVsnr/WteLGBkS7YE9caOBEAMQ0LE6IPMUokYqv7YYrHrq/x174eBH5NscN1tfzKu3bDBs1w7tR5ilZfsw==",
       "path": "microsoft.aspnetcore.authentication.google/3.1.8",
       "hashPath": "microsoft.aspnetcore.authentication.google.3.1.8.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-sAXFFgsSEYd6PTFCzBKYBlXnb+ncclrQPMyMzARELxBv94Onqtr/JTWKih+NUr/3xR5BAs1xE6boao0Us6xcPA==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.8",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nszoSasCukCRXutZOUUIXHbWl/u8X32do9y89FPv2XSahzOeXUX2BI9ehDh5bbbGtKM06LqfbGHXVl6BKqaxKA==",
-      "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.8",
-      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.3.1.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.8": {
       "type": "package",

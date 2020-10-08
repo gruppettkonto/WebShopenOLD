@@ -93,7 +93,3 @@ C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Release\netcoreap
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Release\netcoreapp3.1\WebShopen.pdb
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\obj\Release\netcoreapp3.1\WebShopen.genruntimeconfig.cache
 C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.AzureAD.UI.dll
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Familjen Linhage\source\repos\Webshopen\WebShopen\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
