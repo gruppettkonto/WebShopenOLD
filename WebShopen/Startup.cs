@@ -49,7 +49,7 @@ namespace WebShopen
                 .AddGoogle(options =>
                 {
                     options.ClientId = "479215895037-p0ujudllhjlfsc9evm6i3nogbhmpitvc.apps.googleusercontent.com";
-                    options.ClientSecret = "gXab1sC073mnmTRZ1r44zLdr";
+                    options.ClientSecret = "KuKsHYQ0B36QqQLXsC9L3FC_";
                 });
         }
 
