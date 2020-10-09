@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
+//using Microsoft.AspNetCore.Identity;
+//using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +13,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Authentication.Cookies;
-
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Microsoft.AspNetCore.Authentication.AzureADB2C.UI;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace WebShopen
 {
@@ -29,22 +32,38 @@ namespace WebShopen
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
-
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(
+            //        Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            // .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.Configure<JwtBearerOptions>(
+             AzureADB2CDefaults.JwtBearerAuthenticationScheme, options =>
+             {
+                 options.TokenValidationParameters.NameClaimType = "name";
+             });
+            services.AddAuthentication(AzureADB2CDefaults.AuthenticationScheme)
+                .AddAzureADB2C(options => Configuration.Bind("AzureAdB2C", options));
             services.AddControllersWithViews();
             services.AddRazorPages();
+            ///////////////////////////////////KOPIERAT////////////////////////////////////////////////////
+            // Configuration to sign-in users with Azure AD B2C
 
+            //services.AddMicrosoftIdentityWebAppAuthentication(Configuration, "AzureAdB2C");
+            //services.AddControllersWithViews()
+            //    .AddMicrosoftIdentityUI();
+            //services.AddRazorPages();
+            ////Configuring appsettings section AzureAdB2C, into IOptions
+            //services.AddOptions();
+            //services.Configure<OpenIdConnectOptions>(Configuration.GetSection("AzureAdB2C"));
+            /////////////////////////////////////////////////////////////////////////////////////////////
             services.AddAuthentication(options =>
             {
                 options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
             })
                  .AddCookie(options =>
                  {
-                     options.LoginPath = "/account/google-login"; // Must be lowercase
+                     options.LoginPath = "/account/google-login";
                  })
                 .AddGoogle(options =>
                 {
